@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body {
-	height: 100vh;
+	width: 100vw;
 	margin: 0;
 	font-family: "Poppins", sans-serif;
 }
@@ -40,6 +40,9 @@ header {
 	margin: 0;
 	padding: 0;
 	display: flex;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 }
 .nav__link {
 	--spacing: 1em;
