@@ -8,6 +8,7 @@
     <title>World Wide Food</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/form.css">
 </head>
 
 <body>
@@ -22,21 +23,19 @@
     </header>
 
     <main>
-        <section class="contact-intro">
-            <h1>Bienvenido a World Wide Food</h1>
-        </section>
-
+        <section class="home-intro small"></section>
         <div class="contact-about">
             <div class="contact-form">
-                <form action="" class="contact-fields">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-fields">
                     <div class="contact-title">
                         <h2>Contactanos!</h2>
-                        <hr>
                     </div>
+                    <hr>
+                    <input type="hidden" name="access_key" value="be8bdef2-faf0-4e24-9466-6ea1a2bf32b7">
                     <input type="text" name="name" placeholder="Nombre" class="contact-inputs" required>
                     <input type="text" name="email" placeholder="Correo" class="contact-inputs" required>
                     <textarea name="message" placeholder="Mensaje"></textarea>
-                    <button type="submit"></button>
+                    <button type="submit" class="contact-btn">Enviar</button>
                 </form>
             </div>
         </div>
