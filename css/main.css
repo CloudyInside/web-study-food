@@ -164,7 +164,6 @@ header {
 	transform: scaleX(1);
 }
 .col-img {
-	min-width: 0;
 	max-width: 100%;
 	border-radius: 5px;
 	object-fit: contain;
@@ -202,4 +201,9 @@ footer {
 	text-align: center;
 	align-items: flex-end;
 	justify-content: space-around;
+}
+.footer-img {
+	width: 40px;
+	border-radius: 5px;
+	object-fit: contain;
 }
