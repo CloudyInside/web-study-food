@@ -180,7 +180,7 @@ footer {
 	background: #123 url(../img/home_bg2.jpg);
 	background-size: cover;
 	background-blend-mode: multiply;
-	color: fff;
+	color: #fff;
 	text-align: center;
 	align-items: flex-end;
 	justify-content: space-around;
