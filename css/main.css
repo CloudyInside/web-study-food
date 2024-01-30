@@ -83,16 +83,13 @@ header {
 	color: white;
 	text-align: center;
 }
-.small {
-	padding: 10vh 0;
-}
 .home-about {
 	padding: 4em 0;
 	max-width: 100%;
 	margin: 0 2em;
 }
 .contact-about {
-	padding: 4em 0;
+	padding: 1em 0;
 	max-width: 100%;
 	margin-inline: 2em;
 	margin-bottom: 18%;
@@ -133,7 +130,7 @@ footer {
 	margin-top: auto;
 	display: flex;
 	padding: 3vh 0;
-	background: #123 url(../img/home_bg.webp);
+	background: #123 url(../img/home_bg2.jpg);
 	background-size: cover;
 	background-blend-mode: multiply;
 	color: white;
