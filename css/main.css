@@ -44,6 +44,7 @@ header {
 	flex-wrap: wrap;
 }
 .nav__link {
+	max-width: 100%;
 	--spacing: 1em;
 	text-decoration: none;
 	color: inherit;
