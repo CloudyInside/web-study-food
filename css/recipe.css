@@ -1,0 +1,48 @@
+.recipe-img {
+	max-width: 100%;
+	border-radius: 5px;
+	object-fit: contain;
+	transition: transform 150ms ease-in;
+}
+.ingredient-table {
+	max-width: 100%;
+	margin: 1em;
+	padding: 1em;
+	border: 2px solid #333;
+	border-radius: 5px;
+}
+.ingredient-table p {
+	display: inline-block;
+}
+[type="checkbox"] {
+	opacity: 0;
+}
+[type="checkbox"] + label {
+	position: relative;
+	padding-left: 1.5em;
+	cursor: pointer;
+	display: inline-block;
+	color: #666;
+	line-height: 1em;
+}
+[type="checkbox"] + label::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1em;
+	height: 1em;
+	outline: 2px solid #000;
+	background-color: #fff;
+}
+[type="checkbox"]:checked + label::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1em;
+	height: 1em;
+	background-image: url(../img/check.png);
+	background-size: cover;
+	outline: 2px solid #000;
+}
