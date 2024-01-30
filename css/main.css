@@ -114,6 +114,10 @@ header {
 	grid-template-columns: repeat(2, 1fr);
 }
 @media (max-width: 650px) {
+	header {
+		padding-block: 2rem;
+		font-size: 2em;
+	}
 	.columns {
 		display: flex;
 		flex-direction: column;
