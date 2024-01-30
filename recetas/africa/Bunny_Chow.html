@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>World Wide Food</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/recipe.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="site-logo" aria-label="homepage">WWF</a>
+        <nav class="main-nav">
+            <ul class="nav__list">
+                <li class="nav__list-item"><a href="../../index.html" class="nav__link">Inicio</a></li>
+                <li class="nav__list-item"><a href="../../contacto.html" class="nav__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home-intro">
+        </section>
+
+        <div class="home-about">
+            <h2>Shchi</h2>
+            <img class="recipe-img" src="../../img/Shchi.jpg" alt="Shchi">
+            <p>Shchi es una sopa con col como ingrediente principal. Es muy popular en la gastronomía de Rusia y de los
+                países del Este de Europa. Una variante de esta sopa
+                elaborada con acedera se denominaba en Rusia como shchi verde.</p>
+            <div class="recipe-section">
+                <!--Aqui se ponen los ingredientes cada ingrediente tiene una checkbox con un id
+                y tambien tienen una label, que apunta a ese id, si poneis mas ingredientes a parte de
+                cambiar el ingrediente en si tendreis que cambiar los ids y las labels, por ejemplo
+                id="ingrediente9" label for="ingrediente9" el resto es copiar y pegar los tds y trs-->
+                <table class="ingredient-table">
+                    <tr>
+                        <td colspan="2">
+                            <h2>Ingredientes para hacer Shchi:</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="ingrediente"> <label for="ingrediente">½ repollo</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="ingrediente2"> <label for="ingrediente2">1 cebolla</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="ingrediente3"> <label for="ingrediente3">1 Zanahoria</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="ingrediente4"> <label for="ingrediente4">2 dientes de ajo</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="ingrediente5"> <label for="ingrediente5">Perejil, hierbas
+                                provenzales o eneldo</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="ingrediente6"> <label for="ingrediente6">1 hoja de laurel</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="ingrediente7"> <label for="ingrediente7">Tomate
+                                (opcional)</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="ingrediente8"> <label for="ingrediente8">1 pizca de pimienta
+                                blanca</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="ingrediente9"> <label for="ingrediente9">Sal</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="ingrediente10"> <label for="ingrediente10">1 cuarto de
+                                pollo</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="ingrediente11"> <label for="ingrediente11">1 patata
+                                grande</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="ingrediente12"> <label for="ingrediente12">2L de agua o caldo
+                                preparado</label>
+                        </td>
+                    </tr>
+                </table>
+                <h2>Pasos:</h2>
+                <p> • Paso 1: Hacer el caldo con un cuarto de pollo.
+                    <br>
+                    • Paso 2: Se pica la cebolla, se sofríe junto al ajo hasta que esté dorada. Se ralla la zanahoria y
+                    se sofríe por separado de la cebolla, añadiendo una pizca de pimienta hasta que cambie de color.
+                    <br>
+                    • Paso 3: Cortar en juliana medio repollo, pasarlo por la sartén con las hierbas provenzales hasta
+                    que se ablande y se dore.
+                    <br>
+                    • Paso 4: Cortar la patata en bastones, sacar el cuarto trasero del pollo del caldo cuando este
+                    hecho y apartarlo para que se enfríe, en el caldo echamos toda la verdura y los bastones de patata.
+                    Opcionalmente se puede poner un tomate sin piel cortado en dados o dos cucharadas de tomate frito.
+                    Poner a hervir 15 minutos a fuego lento.
+                    <br>
+                    • Paso 5: Desmenuzar el cuarto trasero desechando la piel y huesos y añadir la carne en la sopa.
+                    Tres minutos antes de sacar del fuego añadir dos hojas de laurel y perejil picado fresco.
+                    <br>
+                    • Paso 6: Servir bien caliente con una cucharadita de nata agria o mayonesa.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright © WWF</p>
+        <p>| Diseño: Claudia Sánchez Menacho </p>
+        <a href="" target="_blank"><img class="footer-img" src="../../img/insta.png" alt="instagram"></a>
+    </footer>
+    <script type="text/javascript" src="../../js/observer.js"></script>
+</body>
+
+</html>
