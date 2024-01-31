@@ -11,8 +11,10 @@
 	border: 2px solid #333;
 	border-radius: 5px;
 }
-.ingredient-table p {
-	display: inline-block;
+.ingredient-table td {
+	max-width: 50%;
+	text-wrap: wrap;
+	white-space: nowrap;
 }
 [type="checkbox"] {
 	opacity: 0;
