@@ -110,7 +110,6 @@ header {
 .columns {
 	display: grid;
 	grid-gap: 4em;
-	align-items: center;
 	grid-template-columns: repeat(2, 1fr);
 }
 @media (max-width: 650px) {
@@ -129,6 +128,7 @@ header {
 	}
 }
 .col {
+	max-width: 600px;
 	padding: 1em;
 }
 .col-title {
@@ -164,6 +164,7 @@ header {
 	transform: scaleX(1);
 }
 .col-img {
+	display: block;
 	max-width: 100%;
 	border-radius: 5px;
 	object-fit: contain;
