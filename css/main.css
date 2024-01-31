@@ -12,6 +12,9 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+p {
+	line-height: 1.6rem;
+}
 .site-logo {
 	font-weight: 900;
 	font-size: 1.2rem;
@@ -102,7 +105,7 @@ header {
 	margin-inline: 2em;
 	margin-bottom: 18%;
 }
-.recipe-section {
+.column-wrapper {
 	max-width: 100%;
 	background: #f4f4f4;
 	padding: 1em 1em;
@@ -130,6 +133,10 @@ header {
 .col {
 	max-width: 600px;
 	padding: 1em;
+}
+.col p {
+	color: #666;
+	line-height: 1.2em;
 }
 .col-title {
 	--spacing: 1em;
